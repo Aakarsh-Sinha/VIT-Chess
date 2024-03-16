@@ -31,8 +31,8 @@ function NavbarBoot() {
             <Nav.Link as={Link} to="/contact">
               Contact
             </Nav.Link>
-            <Nav.Link as={Link} to="/blogs">
-              Blogs
+            <Nav.Link as={Link} to="/articles">
+              Articles
             </Nav.Link>
             <Nav.Link as={Link} to="/signup">
               Signup

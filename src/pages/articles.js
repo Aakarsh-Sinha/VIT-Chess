@@ -13,4 +13,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default Article;
