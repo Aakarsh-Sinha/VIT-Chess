@@ -38,11 +38,8 @@ function NavbarBoot() {
               Signup
             </Nav.Link>
             <NavDropdown title="VITCL" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
-                <Nav.Link as={Link} to="/vitcl-schedule">
-                  Scheulde
-                </Nav.Link>
-              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1"><Nav.Link as={Link} to="/vitcl-schedule">Schedule</Nav.Link>
+            </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>
