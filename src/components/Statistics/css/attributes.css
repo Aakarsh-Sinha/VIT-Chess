@@ -1,0 +1,19 @@
+.containerstats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+
+.property {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid black;
+  background-color: #3f72af;
+  color: white;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  padding-top: 5px;
+  text-wrap: wrap;
+}
