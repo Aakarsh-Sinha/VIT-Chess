@@ -7,6 +7,7 @@ import Contact from "./pages/contact.js";
 import NavbarBoot from "./components/NavbarBootstrap.jsx";
 
 import NationalInterUni2024 from "./pages/articles/NationalInterUni2024.jsx";
+import VITCLSchedule from "./pages/vitcl/VITCLSchedule.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/articles" element={<NationalInterUni2024 />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/vitcl-schedule" element={<VITCLSchedule />} />
       </Routes>
     </Router>
   );

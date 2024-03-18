@@ -1,0 +1,25 @@
+.schedule {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Adjust column widths as needed */
+    gap: 10px; /* Adjust gap between grid items */
+  }
+  
+  .title,
+  .date,
+  .round,
+  .teams,
+  .blitz-time,
+  .bullet-time {
+    padding: 10px;
+    background-color: #f2f2f2; /* Light grey background color */
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  .blitz-time,
+  .bullet-time {
+    background-color: #e0e0e0; /* Lighter grey background color */
+  }
+  
