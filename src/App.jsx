@@ -14,6 +14,7 @@ function App() {
       <NavbarBoot />
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="/statistics" element={<Statistics />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/articles" element={<NationalInterUni2024 />} />
