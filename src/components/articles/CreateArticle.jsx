@@ -1,11 +1,18 @@
 import React from "react";
 import ArticleHead from "./ArticleHead";
 import ArticleContent from "./ArticleContent";
+import "../css/articles/articlePage.css";
 
-const CreateArticle = (article) => {
+const CreateArticle = (props) => {
   return <div class="article-page">
-    <ArticleHead title={article.title} date={article.date} author={article.author} subtitle={article.subtitle}/>
-    <ArticleContent content={article.content}/>
+    <table>
+      <tr><td>
+        <ArticleHead title={props.article.title} date={props.article.date} author={props.article.author} subtitle={props.article.subtitle} img={props.article.img}/>
+      </td></tr>
+      <tr><td>
+        <ArticleContent content={props.article.content}/>
+      </td></tr>
+    </table>
   </div>
 };
 

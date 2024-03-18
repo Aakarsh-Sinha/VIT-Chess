@@ -7,7 +7,7 @@ function ArticleHead(props) {
             <table>
                 <tr><td class="article-title">{props.title}</td></tr>
                 <tr><td>{props.date}</td><td>{props.author}</td></tr>
-                <tr><td>{props.img}</td></tr>
+                <tr><td><img src={props.img} alt="Main image of article"></img></td></tr>
                 <tr><td>{props.subtitle}</td></tr>
             </table>
         </div>

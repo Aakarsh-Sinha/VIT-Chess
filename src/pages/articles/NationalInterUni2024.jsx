@@ -1,14 +1,19 @@
 import React from "react";
 import CreateArticle from "../../components/articles/CreateArticle";
 
+const content = `
+  Hello there. This is a multi line comment.
+`
+
 const article = {
   title: "South Zonals 2024",
   date: "March 16th, 2024",
   author: "Kalki Eshwar D",
-  content: "Hello there"
+  img: "../assets/images/articles/National-Inter-Uni-2024.png",
+  content: content,
 }
 
-const SouthZonals2024 = () => {
+const NationalInterUni2024 = () => {
   return (
     <div>
       <CreateArticle article={article}/>
@@ -16,4 +21,4 @@ const SouthZonals2024 = () => {
   );
 };
 
-export default SouthZonals2024;
+export default NationalInterUni2024;
