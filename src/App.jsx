@@ -2,10 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/index.js";
 import Statistics from "./pages/statistics.jsx";
-import Blogs from "./pages/blogs.js";
 import SignUp from "./pages/signup.js";
 import Contact from "./pages/contact.js";
 import NavbarBoot from "./components/NavbarBootstrap.jsx";
+import NationalInterUni2024 from "./pages/articles/NationalInterUni2024.jsx";
+import VITCLSchedule from "./pages/vitcl/VITCLSchedule.jsx";
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/statistics" element={<Statistics />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/articles" element={<NationalInterUni2024 />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/vitcl-schedule" element={<VITCLSchedule />} />
       </Routes>
     </Router>
   );

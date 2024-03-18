@@ -1,0 +1,37 @@
+.schedule {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* Adjust column widths as needed */
+  gap: 10px;
+  padding: 25px; /* Adjust gap between grid items */
+}
+
+.title,
+.date,
+.round,
+.teams,
+.blitz-time,
+.bullet-time {
+  padding: 10px;
+  background-color: #f2f2f2; /* Light grey background color */
+  /* border: 1px solid #ccc; /* Add border for better separation */
+}
+
+.title {
+  font-weight: bold;
+}
+
+.blitz-time,
+.bullet-time {
+  background-color: #e0e0e0; /* Lighter grey background color */
+}
+
+.blitz-link, .bullet-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imp-round {
+  background-image: linear-gradient(to right, grey, white);
+  padding: 10px;
+}

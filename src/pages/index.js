@@ -7,10 +7,10 @@ import ResponsiveExample from "../components/Home/Table";
 const Home = () => {
   return (
     <div>
-      <Carousel_Home />
-      <Quote />
       <Card1 />
       <ResponsiveExample />
+      <Carousel_Home />
+      <Quote />
     </div>
   );
 };

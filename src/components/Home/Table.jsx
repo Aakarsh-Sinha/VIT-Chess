@@ -15,7 +15,7 @@ function ResponsiveExample() {
   const winners = ["Fischer", "Karpov", "Morphy", "Lasker", "Vidit", "Vishy"];
 
   return (
-    <Table responsive>
+    <Table responsive style={{ margin: "40px" }}>
       <thead>
         <tr>
           {headings.map((heading, index) => (

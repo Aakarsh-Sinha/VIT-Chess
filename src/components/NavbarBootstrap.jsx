@@ -22,7 +22,7 @@ function NavbarBoot() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/">
+            <Nav.Link as={Link} to="/home">
               Home
             </Nav.Link>
             <Nav.Link as={Link} to="/statistics">
@@ -31,14 +31,18 @@ function NavbarBoot() {
             <Nav.Link as={Link} to="/contact">
               Contact
             </Nav.Link>
-            <Nav.Link as={Link} to="/blogs">
-              Blogs
+            <Nav.Link as={Link} to="/articles">
+              Articles
             </Nav.Link>
             <Nav.Link as={Link} to="/signup">
               Signup
             </Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <NavDropdown title="VITCL" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">
+                <Nav.Link as={Link} to="/vitcl-schedule">
+                  Scheulde
+                </Nav.Link>
+              </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>

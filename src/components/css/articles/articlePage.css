@@ -1,0 +1,13 @@
+.article-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#article-body {
+    background-color: #6D6B7C;
+}
+
+.article {
+    background-color: white;
+}

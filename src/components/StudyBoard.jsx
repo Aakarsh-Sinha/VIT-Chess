@@ -4,8 +4,8 @@ import "./css/studyBoard.css";
 
 function StudyBoard(props) {
     return (
-        <div>
-            <iframe class="study-board" src={props.url} frameborder={0} />
+        <div class="study-board">
+            <iframe width="600" height="371" src={props.url} frameborder={0} />
         </div>
     );
 }

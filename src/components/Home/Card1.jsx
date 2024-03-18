@@ -8,7 +8,7 @@ import "./css/card1.css";
 function BasicExample() {
   return (
     <div className="card-container">
-      <Card style={{ width: "18rem" }}>
+      <Card>
         <Card.Img variant="top" src={img1} />
         <Card.Body>
           <Card.Title>Season 1</Card.Title>
@@ -17,7 +17,7 @@ function BasicExample() {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "18rem" }}>
+      <Card>
         <Card.Img variant="top" src={img2} />
         <Card.Body>
           <Card.Title>Season 2</Card.Title>
@@ -26,7 +26,7 @@ function BasicExample() {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "18rem" }}>
+      <Card>
         <Card.Img variant="top" src={img3} />
         <Card.Body>
           <Card.Title>Season 3</Card.Title>
