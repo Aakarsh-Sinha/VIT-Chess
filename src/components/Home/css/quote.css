@@ -1,0 +1,14 @@
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 2px;
+  margin-top: 20px;
+  font-size: larger;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.author {
+  text-align: right;
+}
