@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/articles/articleContent.css";
+import "../css/articles/articleContent.css"
 
 function ArticleContent(props) {
     return (
