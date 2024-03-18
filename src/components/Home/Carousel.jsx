@@ -15,8 +15,8 @@ function Carousel_Home() {
             height="650px"
           ></img>
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>South Zonals 2024</h3>
+            <p>Third position</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -27,8 +27,8 @@ function Carousel_Home() {
             height="650px"
           ></img>
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>VIT South Zonals Teams</h3>
+            <p>Vellore - Left AP - Right</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -39,10 +39,8 @@ function Carousel_Home() {
             height="650px"
           ></img>
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>CMC Pegasus 2023</h3>
+            <p>Team - First Individual - First</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

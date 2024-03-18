@@ -1,8 +1,9 @@
 .player-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-auto-rows: 1fr;
+  grid-auto-rows: 30px;
   justify-content: center;
   align-items: center;
   justify-items: center;
+  background-color: #cbf1f5;
 }
