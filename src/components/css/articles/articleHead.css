@@ -23,8 +23,25 @@
     padding-top: 30px;
 }
 
-.article-sub-head {
+#article-sub-head {
     background-color: #555363;
+    color: #E3E0F3;
+    padding-bottom: 15px;
+    align-content: center;
+    left: 50%;
+}
+
+#article-image {
+    display: flex;
+    padding-left: 50%;
+    align-self: center;
+}
+
+#article-img-caption,
+#article-subtitle {
+    display: flex;
+    text-align: center;
+    /* padding-left: 250px; */
 }
 
 .article-head {

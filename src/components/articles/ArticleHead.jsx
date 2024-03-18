@@ -9,9 +9,17 @@ function ArticleHead(props) {
                     <tr><td id="article-title">{props.title}</td></tr>
                     <tr class="article-details"><td id="article-date">{props.date}</td><td id="article-author">{props.author}</td></tr>
                 </div>
-                <tr class="article-sub-head"><td>{props.img}</td></tr>
-                <tr class="article-sub-head"><td id="article-img-caption">{props.imgcaption}</td></tr>
-                <tr class="article-sub-head"><td id="article-subtitle">{props.subtitle}</td></tr>
+                <div id="article-sub-head">
+                    <div class="sub-head-contents">
+                        <tr><td id="article-image">{props.img}</td></tr>
+                    </div>
+                    <div class="sub-head-contents">
+                        <tr><td id="article-img-caption">{props.imgcaption}</td></tr>
+                    </div>
+                    <div  class="sub-head-contents">
+                        <tr><td id="article-subtitle">{props.subtitle}</td></tr>
+                    </div>
+                </div>
             </table>
         </div>
     );
