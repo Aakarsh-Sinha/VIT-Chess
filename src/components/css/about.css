@@ -23,6 +23,7 @@ p {
 
 main {
     padding: 20px;
+    flex: 1;
 }
 
 section {
@@ -53,3 +54,10 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+.about-page {
+    display: flex; /* Make container a flex container */
+    min-height: 100vh; /* Ensure viewport height */
+    flex-direction: column;
+  }
+
