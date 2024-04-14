@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/index.js";
 import Statistics from "./pages/statistics.jsx";
 import SignUp from "./pages/signup.js";
-import Contact from "./pages/contact.js";
+import Contact from "./pages/contact.jsx";
 import NavbarBoot from "./components/NavbarBootstrap.jsx";
 import NationalInterUni2024 from "./pages/articles/NationalInterUni2024.jsx";
 import VITCLSchedule from "./pages/vitcl/VITCLSchedule.jsx";
