@@ -52,7 +52,9 @@ function NavbarBoot() {
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                <Nav.Link as={Link} to="/season1">
+                  Season 1
+                </Nav.Link>
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>

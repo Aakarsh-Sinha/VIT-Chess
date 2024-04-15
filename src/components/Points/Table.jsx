@@ -6,29 +6,29 @@ function Table() {
       <div class="points-table-header">Team</div>
       <div class="points-table-header">Points</div>
 
-      <div class="points-table-cell">Team Nepomniatchi</div>
-      <div class="points-table-cell">200000</div>
+      <div class="points-table-cell">Karpov</div>
+      <div class="points-table-cell">14221</div>
 
-      <div class="points-table-cell">Team B</div>
-      <div class="points-table-cell">15</div>
+      <div class="points-table-cell">MVL</div>
+      <div class="points-table-cell">13185</div>
 
-      <div class="points-table-cell">Team C</div>
-      <div class="points-table-cell">18</div>
+      <div class="points-table-cell">Morphy</div>
+      <div class="points-table-cell">12786</div>
 
-      <div class="points-table-cell">Team D</div>
-      <div class="points-table-cell">12</div>
+      <div class="points-table-cell">Vidit</div>
+      <div class="points-table-cell">11429</div>
 
-      <div class="points-table-cell">Team E</div>
-      <div class="points-table-cell">17</div>
+      <div class="points-table-cell">Hans</div>
+      <div class="points-table-cell">10695</div>
 
-      <div class="points-table-cell">Team F</div>
+      <div class="points-table-cell">10038</div>
       <div class="points-table-cell">14</div>
 
-      <div class="points-table-cell">Team G</div>
-      <div class="points-table-cell">19</div>
+      <div class="points-table-cell">Capablanca</div>
+      <div class="points-table-cell">9496</div>
 
-      <div class="points-table-cell">Team H</div>
-      <div class="points-table-cell">16</div>
+      <div class="points-table-cell">Alekhine</div>
+      <div class="points-table-cell">9398</div>
     </div>
   );
 }

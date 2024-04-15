@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import img1 from "./Cards/img/img1.jpg";
 import img2 from "./Cards/img/img2.jpg";
 import img3 from "./Cards/img/img3.jpg";
+import { Link } from "react-router-dom";
 import "./css/card1.css";
 
 function BasicExample() {
@@ -13,7 +14,9 @@ function BasicExample() {
         <Card.Body>
           <Card.Title>Season 1</Card.Title>
           <Card.Text>Results and Statistics</Card.Text>
-          <Button variant="info">Link</Button>
+          <Link to="/season1">
+            <Button variant="info">Link</Button>
+          </Link>
         </Card.Body>
       </Card>
 
@@ -22,7 +25,9 @@ function BasicExample() {
         <Card.Body>
           <Card.Title>Season 2</Card.Title>
           <Card.Text>Results and Statistics</Card.Text>
-          <Button variant="info">Link</Button>
+          <Link to="/season1">
+            <Button variant="info">Link</Button>
+          </Link>
         </Card.Body>
       </Card>
 
@@ -31,7 +36,9 @@ function BasicExample() {
         <Card.Body>
           <Card.Title>Season 3</Card.Title>
           <Card.Text>Results and Statistics</Card.Text>
-          <Button variant="info">Link</Button>
+          <Link to="/season1">
+            <Button variant="info">Link</Button>
+          </Link>
         </Card.Body>
       </Card>
     </div>

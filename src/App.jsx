@@ -8,6 +8,7 @@ import NavbarBoot from "./components/NavbarBootstrap.jsx";
 import NationalInterUni2024 from "./pages/articles/NationalInterUni2024.jsx";
 import VITCLSchedule from "./pages/vitcl/VITCLSchedule.jsx";
 import Points from "./pages/points.jsx";
+import Season1 from "./pages/season1.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/points" element={<Points />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/vitcl-schedule" element={<VITCLSchedule />} />
+        <Route path="/season1" element={<Season1 />} />
       </Routes>
     </Router>
   );
