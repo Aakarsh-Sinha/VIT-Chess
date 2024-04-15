@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Aakarsh-Sinha/VIT-Chess/static/css/main.931e23ae.css",
+    "main.js": "/Aakarsh-Sinha/VIT-Chess/static/js/main.249e6c69.js",
+    "static/media/SZ_Team.jpg": "/Aakarsh-Sinha/VIT-Chess/static/media/SZ_Team.dd8089b20314b4b44ab1.jpg",
+    "static/media/National-Inter-Uni-2024-main.png": "/Aakarsh-Sinha/VIT-Chess/static/media/National-Inter-Uni-2024-main.b09e0e5acc82e3c05ef9.png",
+    "static/media/cropped-SZ_Trophy_1.jpg": "/Aakarsh-Sinha/VIT-Chess/static/media/cropped-SZ_Trophy_1.a0c1a8552ecac9663953.jpg",
+    "static/media/finals_bullet.png": "/Aakarsh-Sinha/VIT-Chess/static/media/finals_bullet.365697b18b6af5cdca70.png",
+    "static/media/finals_blitz.png": "/Aakarsh-Sinha/VIT-Chess/static/media/finals_blitz.a0069c16eebb13002cbb.png",
+    "static/media/bronze-medal.png": "/Aakarsh-Sinha/VIT-Chess/static/media/bronze-medal.8e0912e81c18b21946f0.png",
+    "static/media/silver-medal.png": "/Aakarsh-Sinha/VIT-Chess/static/media/silver-medal.bb5d5f8e8a77c2ac3f99.png",
+    "static/media/Pegasus_Individual.jpg": "/Aakarsh-Sinha/VIT-Chess/static/media/Pegasus_Individual.2b210af0b5b88381e5d3.jpg",
+    "static/media/gold-medal.png": "/Aakarsh-Sinha/VIT-Chess/static/media/gold-medal.b40d60fbc596684fc21f.png",
+    "static/media/winner.png": "/Aakarsh-Sinha/VIT-Chess/static/media/winner.a7e535a47efa9d9964fb.png",
+    "static/media/black-queen.png": "/Aakarsh-Sinha/VIT-Chess/static/media/black-queen.d53d46d8a6bb46bbfb97.png",
+    "static/media/img2.jpg": "/Aakarsh-Sinha/VIT-Chess/static/media/img2.9685e60bd8853793d10a.jpg",
+    "static/media/img1.jpg": "/Aakarsh-Sinha/VIT-Chess/static/media/img1.e4295d9331dfd9e72567.jpg",
+    "static/media/img3.jpg": "/Aakarsh-Sinha/VIT-Chess/static/media/img3.3d9f68dcc04471ddd003.jpg",
+    "static/media/black-pawn.png": "/Aakarsh-Sinha/VIT-Chess/static/media/black-pawn.54c0295d6386eb33f6ff.png",
+    "static/media/Logo.svg": "/Aakarsh-Sinha/VIT-Chess/static/media/Logo.903af7304702ba266b2ffce2af197b7f.svg",
+    "index.html": "/Aakarsh-Sinha/VIT-Chess/index.html",
+    "main.931e23ae.css.map": "/Aakarsh-Sinha/VIT-Chess/static/css/main.931e23ae.css.map",
+    "main.249e6c69.js.map": "/Aakarsh-Sinha/VIT-Chess/static/js/main.249e6c69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.931e23ae.css",
+    "static/js/main.249e6c69.js"
+  ]
+}
