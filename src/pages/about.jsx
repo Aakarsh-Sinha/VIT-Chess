@@ -1,6 +1,9 @@
 import React from "react";
 import "../components/css/about.css";
 import PawnQueening from "../components/PawnQueenting";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
+
 
 const About = () => {
   return (
@@ -30,10 +33,14 @@ const About = () => {
           <ul>
             <li>
               Attend our upcoming events:{" "}
-              <a href="#">Events Calendar</a> (link to be added later)
+              <a href="">Events Calendar</a> (link to be added later)
             </li>
             <li>Follow us on social media: (Links to be added later)</li>
-            <li>Contact us: (Email address to be added later)</li>
+            <li>Contact us: 
+              <Link to="/contact">
+                <Button variant="info">here</Button>
+              </Link>
+            </li>
           </ul>
         </section>
         <PawnQueening />
