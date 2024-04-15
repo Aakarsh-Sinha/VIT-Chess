@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VIT-Chess/static/css/main.cb5213ac.css",
-    "main.js": "/VIT-Chess/static/js/main.0f5f8652.js",
+    "main.js": "/VIT-Chess/static/js/main.050b07cc.js",
     "static/media/SZ_Team.jpg": "/VIT-Chess/static/media/SZ_Team.dd8089b20314b4b44ab1.jpg",
     "static/media/National-Inter-Uni-2024-main.png": "/VIT-Chess/static/media/National-Inter-Uni-2024-main.b09e0e5acc82e3c05ef9.png",
     "static/media/cropped-SZ_Trophy_1.jpg": "/VIT-Chess/static/media/cropped-SZ_Trophy_1.a0c1a8552ecac9663953.jpg",
@@ -20,10 +20,10 @@
     "static/media/Logo.svg": "/VIT-Chess/static/media/Logo.903af7304702ba266b2ffce2af197b7f.svg",
     "index.html": "/VIT-Chess/index.html",
     "main.cb5213ac.css.map": "/VIT-Chess/static/css/main.cb5213ac.css.map",
-    "main.0f5f8652.js.map": "/VIT-Chess/static/js/main.0f5f8652.js.map"
+    "main.050b07cc.js.map": "/VIT-Chess/static/js/main.050b07cc.js.map"
   },
   "entrypoints": [
     "static/css/main.cb5213ac.css",
-    "static/js/main.0f5f8652.js"
+    "static/js/main.050b07cc.js"
   ]
 }
