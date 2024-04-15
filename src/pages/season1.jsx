@@ -1,6 +1,7 @@
 import TeamComposition from "../components/Season1/TeamComposition";
 import Table from "../components/Points/Table";
 import Winners from "../components/Season1/Winners";
+import Finals from "../components/Season1/Finals";
 
 const Season1 = () => {
   return (
@@ -8,6 +9,7 @@ const Season1 = () => {
       <Winners />
       <TeamComposition />
       <Table />
+      <Finals />
     </div>
   );
 };
