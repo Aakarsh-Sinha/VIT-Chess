@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Aakarsh-Sinha/VIT-Chess/static/css/main.931e23ae.css",
-    "main.js": "/Aakarsh-Sinha/VIT-Chess/static/js/main.249e6c69.js",
+    "main.css": "/Aakarsh-Sinha/VIT-Chess/static/css/main.cb5213ac.css",
+    "main.js": "/Aakarsh-Sinha/VIT-Chess/static/js/main.2a6d5f8a.js",
     "static/media/SZ_Team.jpg": "/Aakarsh-Sinha/VIT-Chess/static/media/SZ_Team.dd8089b20314b4b44ab1.jpg",
     "static/media/National-Inter-Uni-2024-main.png": "/Aakarsh-Sinha/VIT-Chess/static/media/National-Inter-Uni-2024-main.b09e0e5acc82e3c05ef9.png",
     "static/media/cropped-SZ_Trophy_1.jpg": "/Aakarsh-Sinha/VIT-Chess/static/media/cropped-SZ_Trophy_1.a0c1a8552ecac9663953.jpg",
@@ -19,11 +19,11 @@
     "static/media/black-pawn.png": "/Aakarsh-Sinha/VIT-Chess/static/media/black-pawn.54c0295d6386eb33f6ff.png",
     "static/media/Logo.svg": "/Aakarsh-Sinha/VIT-Chess/static/media/Logo.903af7304702ba266b2ffce2af197b7f.svg",
     "index.html": "/Aakarsh-Sinha/VIT-Chess/index.html",
-    "main.931e23ae.css.map": "/Aakarsh-Sinha/VIT-Chess/static/css/main.931e23ae.css.map",
-    "main.249e6c69.js.map": "/Aakarsh-Sinha/VIT-Chess/static/js/main.249e6c69.js.map"
+    "main.cb5213ac.css.map": "/Aakarsh-Sinha/VIT-Chess/static/css/main.cb5213ac.css.map",
+    "main.2a6d5f8a.js.map": "/Aakarsh-Sinha/VIT-Chess/static/js/main.2a6d5f8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.931e23ae.css",
-    "static/js/main.249e6c69.js"
+    "static/css/main.cb5213ac.css",
+    "static/js/main.2a6d5f8a.js"
   ]
 }
