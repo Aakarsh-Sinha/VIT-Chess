@@ -34,12 +34,18 @@ function NavbarBoot() {
             <Nav.Link as={Link} to="/articles">
               Articles
             </Nav.Link>
+            <Nav.Link as={Link} to="/points">
+              Points Table
+            </Nav.Link>
             <Nav.Link as={Link} to="/signup">
               Signup
             </Nav.Link>
             <NavDropdown title="VITCL" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1"><Nav.Link as={Link} to="/vitcl-schedule">Schedule</Nav.Link>
-            </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">
+                <Nav.Link as={Link} to="/vitcl-schedule">
+                  Schedule
+                </Nav.Link>
+              </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>
