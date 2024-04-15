@@ -9,3 +9,11 @@
   background-color: #f0ebeb;
   font-weight: bold;
 }
+
+#hover-text {
+  position: absolute;
+  background-color: #474554;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
