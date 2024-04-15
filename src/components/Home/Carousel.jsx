@@ -3,7 +3,7 @@ import img1 from "./ExampleCarouselImage/SZ_Team.jpg";
 import img2 from "./ExampleCarouselImage/cropped-SZ_Trophy_1.jpg";
 import img3 from "./ExampleCarouselImage/Pegasus_Individual.jpg";
 
-function Carousel_Home() {
+function CarouselHome() {
   return (
     <div height="50%">
       <Carousel>
@@ -48,4 +48,4 @@ function Carousel_Home() {
   );
 }
 
-export default Carousel_Home;
+export default CarouselHome;
