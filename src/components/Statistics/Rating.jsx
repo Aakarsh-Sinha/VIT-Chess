@@ -1,46 +1,46 @@
 const players = [
   {
     id: 1,
-    name: "Aakarsh Sinha",
-    username: "Aakarsh_IND",
-    average_rating: 2300,
-    blitz_rating: 2250,
-    bullet_rating: 2350,
+    name: "Shriman K",
+    username: "The_Irish_Indian",
+    average_rating: 2204,
+    blitz_rating: 2103,
+    bullet_rating: 2306,
     total_points: 10000,
-    mean_points: 100,
+    mean_points: 41.08,
   },
 
   {
     id: 2,
-    name: "Aakarsh Sinha",
-    username: "Aakarsh_IND",
-    average_rating: 2300,
-    blitz_rating: 2250,
-    bullet_rating: 2350,
+    name: "Piyush Narsikar",
+    username: "PiyushNarsikar",
+    average_rating: 2325,
+    blitz_rating: 2271,
+    bullet_rating: 2380,
     total_points: 10000,
-    mean_points: 100,
+    mean_points: 40.67,
   },
 
   {
     id: 3,
-    name: "Aakarsh Sinha",
-    username: "Aakarsh_IND",
+    name: "Abinandhan R",
+    username: "Kqabi",
     average_rating: 2300,
-    blitz_rating: 2250,
-    bullet_rating: 2350,
+    blitz_rating: 2239,
+    bullet_rating: 2234,
     total_points: 10000,
-    mean_points: 100,
+    mean_points: 38.4,
   },
 
   {
     id: 4,
-    name: "Aakarsh Sinha",
-    username: "Aakarsh_IND",
+    name: "Adit Pushan",
+    username: "adit_pushan",
     average_rating: 2300,
-    blitz_rating: 2250,
-    bullet_rating: 2350,
+    blitz_rating: 2104,
+    bullet_rating: 2184,
     total_points: 10000,
-    mean_points: 100,
+    mean_points: 34.33,
   },
 
   {
@@ -48,14 +48,47 @@ const players = [
     name: "Aakarsh Sinha",
     username: "Aakarsh_IND",
     average_rating: 2300,
-    blitz_rating: 2250,
-    bullet_rating: 2350,
+    blitz_rating: 2203,
+    bullet_rating: 2214,
     total_points: 10000,
-    mean_points: 100,
+    mean_points: 33.0,
   },
 
   {
     id: 6,
+    name: "Lakshya Hirani",
+    username: "hiranilakshya4",
+    average_rating: 2300,
+    blitz_rating: 2116,
+    bullet_rating: 2216,
+    total_points: 10000,
+    mean_points: 28.08,
+  },
+
+  {
+    id: 7,
+    name: "Sai Shravan R",
+    username: "Spynemaster",
+    average_rating: 2300,
+    blitz_rating: 2207,
+    bullet_rating: 2209,
+    total_points: 10000,
+    mean_points: 28.0,
+  },
+
+  {
+    id: 8,
+    name: "Balaji K",
+    username: "BALAJIK",
+    average_rating: 2300,
+    blitz_rating: 1984,
+    bullet_rating: 2142,
+    total_points: 10000,
+    mean_points: 27.3,
+  },
+
+  {
+    id: 9,
     name: "Aakarsh Sinha",
     username: "Aakarsh_IND",
     average_rating: 2300,
@@ -66,7 +99,7 @@ const players = [
   },
 
   {
-    id: 7,
+    id: 10,
     name: "Aakarsh Sinha",
     username: "Aakarsh_IND",
     average_rating: 2300,
@@ -77,7 +110,7 @@ const players = [
   },
 
   {
-    id: 7,
+    id: 11,
     name: "Aakarsh Sinha",
     username: "Aakarsh_IND",
     average_rating: 2300,
@@ -88,7 +121,7 @@ const players = [
   },
 
   {
-    id: 7,
+    id: 12,
     name: "Aakarsh Sinha",
     username: "Aakarsh_IND",
     average_rating: 2300,
@@ -99,7 +132,7 @@ const players = [
   },
 
   {
-    id: 7,
+    id: 12,
     name: "Aakarsh Sinha",
     username: "Aakarsh_IND",
     average_rating: 2300,
@@ -110,7 +143,7 @@ const players = [
   },
 
   {
-    id: 7,
+    id: 14,
     name: "Aakarsh Sinha",
     username: "Aakarsh_IND",
     average_rating: 2300,
@@ -121,7 +154,7 @@ const players = [
   },
 
   {
-    id: 7,
+    id: 15,
     name: "Aakarsh Sinha",
     username: "Aakarsh_IND",
     average_rating: 2300,
@@ -132,7 +165,7 @@ const players = [
   },
 
   {
-    id: 7,
+    id: 16,
     name: "Aakarsh Sinha",
     username: "Aakarsh_IND",
     average_rating: 2300,
@@ -143,7 +176,7 @@ const players = [
   },
 
   {
-    id: 7,
+    id: 17,
     name: "Aakarsh Sinha",
     username: "Aakarsh_IND",
     average_rating: 2300,
@@ -154,7 +187,7 @@ const players = [
   },
 
   {
-    id: 7,
+    id: 18,
     name: "Aakarsh Sinha",
     username: "Aakarsh_IND",
     average_rating: 2300,
@@ -165,7 +198,7 @@ const players = [
   },
 
   {
-    id: 7,
+    id: 19,
     name: "Aakarsh Sinha",
     username: "Aakarsh_IND",
     average_rating: 2300,
@@ -176,62 +209,7 @@ const players = [
   },
 
   {
-    id: 7,
-    name: "Aakarsh Sinha",
-    username: "Aakarsh_IND",
-    average_rating: 2300,
-    blitz_rating: 2250,
-    bullet_rating: 2350,
-    total_points: 10000,
-    mean_points: 100,
-  },
-
-  {
-    id: 7,
-    name: "Aakarsh Sinha",
-    username: "Aakarsh_IND",
-    average_rating: 2300,
-    blitz_rating: 2250,
-    bullet_rating: 2350,
-    total_points: 10000,
-    mean_points: 100,
-  },
-
-  {
-    id: 7,
-    name: "Aakarsh Sinha",
-    username: "Aakarsh_IND",
-    average_rating: 2300,
-    blitz_rating: 2250,
-    bullet_rating: 2350,
-    total_points: 10000,
-    mean_points: 100,
-  },
-
-  {
-    id: 7,
-    name: "Aakarsh Sinha",
-    username: "Aakarsh_IND",
-    average_rating: 2300,
-    blitz_rating: 2250,
-    bullet_rating: 2350,
-    total_points: 10000,
-    mean_points: 100,
-  },
-
-  {
-    id: 7,
-    name: "Aakarsh Sinha",
-    username: "Aakarsh_IND",
-    average_rating: 2300,
-    blitz_rating: 2250,
-    bullet_rating: 2350,
-    total_points: 10000,
-    mean_points: 100,
-  },
-
-  {
-    id: 7,
+    id: 20,
     name: "Aakarsh Sinha",
     username: "Aakarsh_IND",
     average_rating: 2300,

@@ -1,7 +1,5 @@
 import React from "react";
 import Grid from "./Grid";
-import handleClick from "./PlayerLink";
-import players from "./Rating";
 
 function createCard(player, handleClick) {
   return (
