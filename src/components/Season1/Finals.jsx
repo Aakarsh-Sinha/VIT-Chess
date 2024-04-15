@@ -4,9 +4,9 @@ import "./css/finals.css";
 
 function Finals() {
   return (
-    <div className="image-container">
-      <img src={finals_blitz} height={500} width={400} className="image"></img>
-      <img src={finals_bullet} height={500} width={400} className="image"></img>
+    <div className="result-container">
+      <img src={finals_blitz} height={500} width={400} className="arena"></img>
+      <img src={finals_bullet} height={500} width={400} className="arena"></img>
     </div>
   );
 }
