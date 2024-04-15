@@ -1,0 +1,38 @@
+#animation {
+    padding: 50px;
+}
+
+.image-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.image:nth-child(1) {
+    animation: rotate-switch 2s ease-in-out infinite forwards;
+ }
+
+.image:nth-child(2) { /* Target second image */
+    animation: rotate-switch 2s ease-in-out infinite forwards;
+    animation-delay: 1s;
+}
+
+@keyframes rotate-switch {
+  0% {
+    transform: rotate(0deg);
+    z-index: 2; /* Set first image on top initially */
+  }
+  100% {
+    transform: rotate(720deg); /* Rotate further for smoother transition */
+    z-index: 1; /* Set second image on top after switch */
+  }
+}
