@@ -1,9 +1,9 @@
 import "./css/grid.css";
 
-const Grid = ({ props, onClick }) => {
+export default function Grid(props) {
   return (
     <div>
-      <div className="player-grid" onClick={onClick}>
+      <div className="player-grid">
         <div>{props.name}</div>
         <div>{props.username}</div>
         <div>{props.average_rating}</div>
@@ -14,6 +14,4 @@ const Grid = ({ props, onClick }) => {
       </div>
     </div>
   );
-};
-
-export default Grid;
+}
