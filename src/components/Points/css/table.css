@@ -1,0 +1,27 @@
+.points-table {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Two columns: one for team names and one for points */
+  grid-gap: 5px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.points-table-header {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.points-table-cell {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.points-table-cell:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.points-table-cell:hover {
+  background-color: #ddd;
+}
