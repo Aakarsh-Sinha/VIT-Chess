@@ -40,7 +40,7 @@ export const updateDatabase = async (data) => {
 };
 
 export const updateAllUsers = async () => {
-  const usernames = ["Aakarsh_IND", "The_Avalanche", "FlameCandy"]; // Replace with your 100 player usernames
+  const usernames = ["Aakarsh_IND", "The_Avalanche", "FlameCandy"];
   for (const username of usernames) {
     const data = await fetchPlayerDataFromAPI(username);
     if (data) {
