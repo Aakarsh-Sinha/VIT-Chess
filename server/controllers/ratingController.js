@@ -5,7 +5,7 @@ import {
 } from "../services/userRatings.js";
 
 export const updateUserRatings = async (req, res) => {
-  const usernames = ["Aakarsh_IND", "The_Avalanche", "FlameCandy"]; // Replace with your usernames
+  const usernames = ["Aakarsh_IND", "The_Avalanche", "FlameCandy"];
   for (const username of usernames) {
     const data = await fetchPlayerDataFromAPI(username);
     if (data) {

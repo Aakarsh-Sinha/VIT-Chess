@@ -24,7 +24,7 @@ export const savePlayerRating = async (data) => {
     await db.query(query, [
       data.id,
       data.username,
-      data.perfs.blitz.rating, // Assuming we are storing the Blitz rating
+      data.perfs.blitz.rating,
       data.perfs.bullet.rating,
     ]);
     console.log("Database updated successfully.");
