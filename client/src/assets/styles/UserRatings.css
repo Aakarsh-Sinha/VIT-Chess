@@ -1,0 +1,46 @@
+/* UserRatings.css */
+
+.ratings-container {
+  width: 100%;
+  padding: 20px; /* Optional: Add padding */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.ratings-table {
+  width: 100%; /* Make the table occupy the entire width of its container */
+  border-collapse: collapse; /* Optional: Collapse borders */
+}
+
+.ratings-table th,
+.ratings-table td {
+  border: 1px solid #ddd; /* Optional: Add border to table cells */
+  padding: 8px; /* Optional: Add padding to table cells */
+  text-align: left; /* Align text to the left */
+}
+
+.ratings-table th {
+  background-color: #f2f2f2; /* Optional: Add background color to header */
+}
+
+.username-link {
+  color: #333; /* Change link color to dark gray */
+  text-decoration: none; /* Remove underline from links */
+  position: relative; /* Ensure positioning context for pseudo-element */
+}
+
+.username-link::after {
+  content: " (View Profile)"; /* Add text after link */
+  position: absolute; /* Position the text absolutely */
+  top: 0; /* Position the text at the top of the link */
+  right: -120%; /* Move the text to the right side of the link */
+  background-color: #007bff; /* Set background color to blue */
+  color: #fff; /* Set text color to white */
+  padding: 4px 8px; /* Add padding */
+  border-radius: 4px; /* Add border radius */
+  opacity: 0; /* Initially hide the text */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.username-link:hover::after {
+  opacity: 1; /* Show the text on hover */
+}
