@@ -28,6 +28,10 @@ const UserRatings = () => {
             <th>Blitz Rating</th>
             <th>Bullet Rating</th>
             <th>Average Rating</th>
+            <th>Blitz Points</th>
+            <th>Bullet Points</th>
+            <th>Average Points</th>
+            <th>Total Points</th>
           </tr>
         </thead>
         <tbody>
@@ -49,7 +53,10 @@ const UserRatings = () => {
                 <td>{rating.blitz_rating}</td>
                 <td>{rating.bullet_rating}</td>
                 <td>{averageRating.toFixed(1)}</td>{" "}
-                {/* Display the average rating */}
+                <td>{rating.blitz_points}</td>
+                <td>{rating.bullet_points}</td>
+                <td>{rating.average_points}</td>
+                <td>{rating.total_points}</td>
               </tr>
             );
           })}
