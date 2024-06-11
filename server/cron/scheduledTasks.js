@@ -11,8 +11,7 @@ cron.schedule("0 * * * *", async () => {
 
 const __dirname = getDirname(import.meta.url);
 const csvFilePath = path.join(__dirname, "..", "data/Points.csv");
-
-cron.schedule("0 0 * * *", async () => {
++cron.schedule("26 * * * *", async () => {
   console.log("Running scheduled task to update points from CSV");
   try {
     await updateRatingsFromCSV(csvFilePath);

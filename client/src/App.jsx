@@ -22,7 +22,7 @@ function App() {
         <Route path="/Home" element={<Home />} />
         <Route path="/VIT-Chess" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/statistics" element={<Statistics />} />
+        <Route path="/statistics" element={<UserRatings />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/articles" element={<NationalInterUni2024 />} />
         <Route path="/points" element={<Points />} />

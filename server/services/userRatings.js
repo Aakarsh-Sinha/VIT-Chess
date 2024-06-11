@@ -25,15 +25,16 @@ export const savePlayerRating = async (data) => {
     bullet_rating = EXCLUDED.bullet_rating; `;
 
   try {
-    await db.query(query, [
-      data.id,
-      data.username,
-      data.perfs.blitz.rating,
-      data.perfs.bullet.rating,
-    ]);
+    // Check if blitz and bullet ratings are available
+    const blitzRating = data.perfs.blitz.rating || null;
+    const bulletRating = data.perfs.bullet.rating || null;
+
+    await db.query(query, [data.id, data.username, blitzRating, bulletRating]);
     console.log("Database updated successfully.");
   } catch (error) {
-    console.error("Error updating database:", error);
+    console.error(
+      `Error updating database for username ${data.username}: ${error.message}`
+    );
   }
 };
 

@@ -1,15 +1,20 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { Dropdown, Button } from "react-bootstrap"; // Import Dropdown and Button components from react-bootstrap
 import "../assets/styles/UserRatings.css"; // Import the CSS file for styling
 
 const UserRatings = () => {
   const [ratings, setRatings] = useState([]);
+  const [sortBy, setSortBy] = useState("average_points"); // State to track the selected sorting option
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await axios.get("http://localhost:5000/api/ratings");
-        setRatings(response.data);
+        const sortedRatings = response.data.sort(
+          (a, b) => b.average_points - a.average_points
+        );
+        setRatings(sortedRatings);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -18,9 +23,38 @@ const UserRatings = () => {
     fetchData();
   }, []);
 
+  const handleSortByTotalPoints = () => {
+    const sortedRatings = [...ratings].sort(
+      (a, b) => b.total_points - a.total_points
+    );
+    setRatings(sortedRatings);
+    setSortBy("total_points");
+  };
+
+  const handleSortByMeanPoints = () => {
+    const sortedRatings = [...ratings].sort(
+      (a, b) => b.average_points - a.average_points
+    );
+    setRatings(sortedRatings);
+    setSortBy("average_points");
+  };
+
   return (
     <div className="ratings-container">
-      <h2>User Ratings</h2>
+      <h2>Player Statistics</h2>
+      <Dropdown>
+        <Dropdown.Toggle variant="primary" id="dropdown-basic">
+          Sort By
+        </Dropdown.Toggle>
+        <Dropdown.Menu>
+          <Dropdown.Item onClick={handleSortByTotalPoints}>
+            Total Points
+          </Dropdown.Item>
+          <Dropdown.Item onClick={handleSortByMeanPoints}>
+            Mean Points
+          </Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
       <table className="ratings-table">
         <thead>
           <tr>
@@ -52,7 +86,7 @@ const UserRatings = () => {
                 </td>
                 <td>{rating.blitz_rating}</td>
                 <td>{rating.bullet_rating}</td>
-                <td>{averageRating.toFixed(1)}</td>{" "}
+                <td>{averageRating.toFixed(1)}</td>
                 <td>{rating.blitz_points}</td>
                 <td>{rating.bullet_points}</td>
                 <td>{rating.average_points}</td>

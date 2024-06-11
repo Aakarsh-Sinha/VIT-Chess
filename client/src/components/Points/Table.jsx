@@ -21,8 +21,8 @@ function Table() {
       <div class="points-table-cell">Hans</div>
       <div class="points-table-cell">10695</div>
 
+      <div class="points-table-cell">Fischer</div>
       <div class="points-table-cell">10038</div>
-      <div class="points-table-cell">14</div>
 
       <div class="points-table-cell">Capablanca</div>
       <div class="points-table-cell">9496</div>
