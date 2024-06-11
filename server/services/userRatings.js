@@ -18,7 +18,11 @@ export const savePlayerRating = async (data) => {
 
   const query = `
     INSERT INTO ratings (id, username, blitz_rating, bullet_rating) 
-    VALUES ($1, $2, $3, $4) `;
+    VALUES ($1, $2, $3, $4)
+    ON CONFLICT (id) 
+    DO UPDATE SET 
+    blitz_rating = EXCLUDED.blitz_rating,
+    bullet_rating = EXCLUDED.bullet_rating; `;
 
   try {
     await db.query(query, [

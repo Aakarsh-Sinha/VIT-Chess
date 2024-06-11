@@ -1,7 +1,7 @@
 import cron from "node-cron";
-import { updateAllUsers } from "../services/userService.js";
+import { updateUserRatings } from "../controllers/ratingController.js";
 
-cron.schedule("0 * * * *", async () => {
+cron.schedule("* * * * *", async () => {
   console.log("Running scheduled task to update user data.");
-  await updateAllUsers();
+  await updateUserRatings();
 });
