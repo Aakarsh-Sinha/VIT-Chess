@@ -1,6 +1,6 @@
 .points-table {
   display: grid;
-  grid-template-columns: auto 1fr; /* Two columns: one for team names and one for points */
+  grid-template-columns: auto 1fr;
   grid-gap: 5px;
   width: 300px;
   margin: 20px auto;

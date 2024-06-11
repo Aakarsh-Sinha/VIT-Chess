@@ -6,7 +6,7 @@ function createCard(player, handleClick) {
     <Grid
       key={player.id}
       name={player.name}
-      onClick={() => handleClick(player.name)} // Pass player name to handleClick function
+      onClick={() => handleClick(player.name)}
       username={player.username}
       average_rating={player.average_rating}
       blitz_rating={player.blitz_rating}

@@ -9,7 +9,7 @@ const Profiles = () => {
       try {
         const response = await axios.get(
           "http://localhost:5000/api/update-data"
-        ); // Assuming backend API endpoint is '/api/data'
+        );
         setData(response.data);
       } catch (error) {
         console.error("Error fetching data:", error);

@@ -4,10 +4,9 @@ import PawnQueening from "../components/PawnQueenting";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
-
 const About = () => {
   return (
-    <div className="about-page">  {/* Wrap content in a container */}
+    <div className="about-page">
       <header>
         <h1>VIT Chess</h1>
         <p>A Community of Chess Enthusiasts</p>
@@ -17,26 +16,35 @@ const About = () => {
         <section id="about">
           <h2>About VIT Chess</h2>
           <p>
-            VIT Chess is a vibrant community of chess players brought together by their love for the game. We welcome players of all skill levels, from beginners to seasoned veterans, to join us and share their passion for strategic thinking and friendly competition.
+            VIT Chess is a vibrant community of chess players brought together
+            by their love for the game. We welcome players of all skill levels,
+            from beginners to seasoned veterans, to join us and share their
+            passion for strategic thinking and friendly competition.
           </p>
           <p>What We Offer:</p>
           <ul>
             <li>A welcoming and inclusive environment</li>
-            <li>Regular Chess Events (e.g., Blitz Tournaments, Rapid Tournaments)</li>
+            <li>
+              Regular Chess Events (e.g., Blitz Tournaments, Rapid Tournaments)
+            </li>
             <li>Opportunities to Learn and Grow (workshops, lectures)</li>
           </ul>
         </section>
 
         <section id="join">
           <h2>Join the Community!</h2>
-          <p>We invite you to become a part of the VIT Chess family. Here's how you can get involved:</p>
+          <p>
+            We invite you to become a part of the VIT Chess family. Here's how
+            you can get involved:
+          </p>
           <ul>
             <li>
-              Attend our upcoming events:{" "}
-              <a href="">Events Calendar</a> (link to be added later)
+              Attend our upcoming events: <a href="">Events Calendar</a> (link
+              to be added later)
             </li>
             <li>Follow us on social media: (Links to be added later)</li>
-            <li>Contact us: 
+            <li>
+              Contact us:
               <Link to="/contact">
                 <Button variant="info">here</Button>
               </Link>

@@ -1,46 +1,44 @@
-/* UserRatings.css */
-
 .ratings-container {
   width: 100%;
-  padding: 20px; /* Optional: Add padding */
-  box-sizing: border-box; /* Ensure padding is included in the width */
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .ratings-table {
-  width: 100%; /* Make the table occupy the entire width of its container */
-  border-collapse: collapse; /* Optional: Collapse borders */
+  width: 100%;
+  border-collapse: collapse;
 }
 
 .ratings-table th,
 .ratings-table td {
-  border: 1px solid #ddd; /* Optional: Add border to table cells */
-  padding: 8px; /* Optional: Add padding to table cells */
-  text-align: left; /* Align text to the left */
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
 }
 
 .ratings-table th {
-  background-color: #f2f2f2; /* Optional: Add background color to header */
+  background-color: #f2f2f2;
 }
 
 .username-link {
-  color: #333; /* Change link color to dark gray */
-  text-decoration: none; /* Remove underline from links */
-  position: relative; /* Ensure positioning context for pseudo-element */
+  color: #333;
+  text-decoration: none;
+  position: relative;
 }
 
 .username-link::after {
-  content: " (View Profile)"; /* Add text after link */
-  position: absolute; /* Position the text absolutely */
-  top: 0; /* Position the text at the top of the link */
-  right: -120%; /* Move the text to the right side of the link */
-  background-color: #007bff; /* Set background color to blue */
-  color: #fff; /* Set text color to white */
-  padding: 4px 8px; /* Add padding */
-  border-radius: 4px; /* Add border radius */
-  opacity: 0; /* Initially hide the text */
-  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+  content: " (View Profile)";
+  position: absolute;
+  top: 0;
+  right: -120%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .username-link:hover::after {
-  opacity: 1; /* Show the text on hover */
+  opacity: 1;
 }

@@ -1,11 +1,7 @@
 .contact-card {
-    display: inline-block;
+  display: inline-block;
 }
 
 #card-title {
-    font-weight: bold;
+  font-weight: bold;
 }
-
-
-/* #card-text {
-} */
